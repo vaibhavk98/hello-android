@@ -175,7 +175,7 @@ Everytime you push, your code will get deployed on a public URL. However, for fa
 
 ### Testing your custom service locally
 
-Since we are directly accessing the internal data endpoint (Read more about internal and external endpoints here) in the nodejs-express app. We need to forward our requests to the port at which the data service is running.
+Since we are directly accessing the internal data endpoint (Read more about internal and external endpoints [here](https://docs.hasura.io/0.15/manual/custom-microservices/communicating-between-microservices.html)) in the nodejs-express app. We need to forward our requests to the port at which the data service is running.
 
 ```sh
 $ hasura forward -s data -n hasura --local-port 6432 --remote-port 8080
