@@ -1,7 +1,7 @@
-- alias: test
+- alias: hasura
   config:
     configmap: controller-conf
     namespace: hasura
   data: null
-  kubeContext: cartwheel94
-  name: cartwheel94
+  kubeContext: entrancing20
+  name: entrancing20
